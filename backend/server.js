@@ -5,6 +5,7 @@ import dateRoutes from './routes/date.route.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const frontend_URL = "https://dates-galaxy-frontend.onrender.com"
 
 app.use(express.json());
 
